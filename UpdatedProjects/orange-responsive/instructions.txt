@@ -1,0 +1,24 @@
+Steps For Making a Website Responsive
+
+(#1)
+Begin by adding the meta viewport tag into the head of the document, otherwise your media queries won't work. Refer back to Week 3 in Litmos to remind yourself how to write it out or Google it! Once you have your meta viewport tag in your head you can begin to add in media queries to your CSS.
+
+
+(#2)
+Before you start adding media queries, PLAN HOW YOU WANT YOUR SITE TO LOOK ON DIFFERENT SCREEN SIZES! You will want to display your information differently on a mobile screen from how it appears on a large, high-res monitor. Consider how you want your layout to change and when, and what CSS you will need to add or overwrite in order to effect these changes.
+
+
+(#3)
+Inspect your site in browser and use the Google Responsive Developer Tool to resize the screen, when elements start to look bad at any screen size that's where you will add a media query.
+
+
+(#4)
+When you're happy with how the website looks from 400px - 1200px then validate your CSS code to make sure there are no new errors.
+
+
+(#5)
+Upload your updated project to Github following the steps in "How to Update a Existing Project on Github" from week 2.
+
+
+(#6)
+Once your done check off in Litmos Week 4 that the in class project is complete.
