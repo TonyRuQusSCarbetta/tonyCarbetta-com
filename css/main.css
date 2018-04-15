@@ -17,7 +17,10 @@ body {
   opacity: 0;
 }
 
-
+button.button.contact-form__button.layer.callme-button.animated.fadeInRight {
+    margin-bottom: 2%;
+    margin-top: -4%;
+}
 
 .fa-github {
   background-color: white;
