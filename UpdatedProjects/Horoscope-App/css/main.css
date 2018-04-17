@@ -1,0 +1,83 @@
+/* AUTOPREFIXER */
+/* https://autoprefixer.github.io/ */
+
+* {
+  /* font-family: 'Gugi', cursive;*/
+  /* font-family: 'Black Han Sans', sans-serif; */
+  /* font-family: 'Do Hyeon', sans-serif; */
+  /* font-family: 'Cantata One', serif; */
+  font-family: 'Crimson Text', serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.maxHeightImage {
+  max-height: 500px;
+}
+
+.maxWidth {
+  max-width: 500px;
+}
+
+.letterSpacing {
+  letter-spacing: 1.8px;
+
+}
+
+.CrimsonText {
+  font-family: 'Crimson Text', serif;
+}
+
+.BlackHanSans {
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.fontSize {
+  font-size: 14px;
+}
+
+button {
+    width: 235px;
+    text-align: center;
+}
+
+#userInput {
+  width: 255px;
+}
+
+h3 {
+  margin-top: none;
+  padding-top: none;
+}
+
+/* .DoHyeon {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.Gugi {
+  font-family: 'Gugi', cursive;
+}
+
+.Roboto {
+  font-family: 'Roboto';
+}
+
+.CantataOne {
+  font-family: 'Cantata One', serif;
+} */
