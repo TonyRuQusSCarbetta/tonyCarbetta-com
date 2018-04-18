@@ -9,26 +9,64 @@
   font-family: 'Crimson Text', serif;
 }
 
-html, body {
-  height: 100%;
+
+#info {
+
+  height: 200px;
+  overflow: auto;
+  padding: 2px;
 }
 
-.center {
-  text-align: center;
+.CarbettaCoding {
+  max-width: 40vh;
+  max-height: 25vh;
+
+}
+
+footer {
+  padding: none;
+}
+
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:50vh
+}
+
+.vertical-align {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+.min-height400 {
+  min-height: 400px;
+}
+
+.min-width400 {
+  min-width: 400px;
+}
+
+.secondColumn {
+  min-width: 250px;
   margin: 0 auto;
-  display: inline-block;
 }
 
-ul {
-  list-style-type: none;
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:70vh;
 }
 
 .maxHeightImage {
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .maxWidth {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .letterSpacing {
@@ -53,18 +91,19 @@ ul {
 }
 
 button {
-    width: 235px;
+    width: 225px;
     text-align: center;
 }
 
 #userInput {
-  width: 255px;
+  width: 225px;
 }
 
 h3 {
   margin-top: none;
   padding-top: none;
 }
+
 
 /* .DoHyeon {
   font-family: 'Do Hyeon', sans-serif;
