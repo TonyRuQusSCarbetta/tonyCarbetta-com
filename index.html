@@ -7,9 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" type="image/png" href="img/favicon1.ico" />
 	<script defer src=js/fontawesome-all.min.js></script>
-	<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script> -->
+
+	<!-- FONT AWESOME CSS -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 	<!-- BOOTSTRAP CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- HOVER ANIMATIONS -->
+	<link rel="stylesheet" href="css/hover.css">
+	<!-- list of hover effects http://ianlunn.github.io/Hover/#effects -->
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 
@@ -20,29 +25,38 @@
 
 	<header id="welcome" class="header header_no-bg box_blur display_js">
 		<div class="main-container main-container_fullheight">
-			<div class="welcome">
+			<div id="welcomeHeader" class="welcome">
 				<h1 class="welcome__header">
 				<span class="welcome__name layer" data-show-effect="fadeInDown" data-show-delay="500">I am Tony Carbetta</span>
-				<span class="welcome__label layer" data-show-effect="fadeInUp" data-show-delay="500">Front-end developer from South San Francisco, CA</span>
+				<span class="welcome__label layer " data-show-effect="fadeInUp" data-show-delay="500">Front-end developer from South San Francisco, CA</span>
 			</h1>
-				<div class="welcome__footer">
-					<a href="resume/Tony-Carbetta-Resume-PDF.pdf" target="_blank" class="welcome__link layer" data-show-effect="fadeInUp" data-show-delay="1000">download resume</a>
+				<div class="welcome__footer mt-5">
+					<a href="resume/Tony-Carbetta-Resume-PDF.pdf" target="_blank" class="mb-5 welcome__link layer" data-show-effect="fadeInUp" data-show-delay="1000">download resume</a>
 				</div>
 			</div>
 		</div>
 	</header>
 
+
+<!-- href="https://www.youtube.com/watch?v=7mL3-1uQkJc" target="_blank" -->
+
+
 	<!-- video button -->
-		<div class="container">
+		<div id="videoMobileContainer"class="container mt-5 bg-black">
 				<div class="row align-items-center justify-content-center">
-		<a href="https://www.youtube.com/watch?v=fFg2gu9RlPA" target="_blank"><button type="button" class="btn btn-danger">
-			Watch full Portfolio Video
-		</button></a>
+		 <button id="videoMobile" type="button" onclick="videoMobile()" class="btn bg-light darkRed p-5 m-5 animated slideInLeft hvr-icon-spin">
+			<h5 class="align-items-center justify-content-center">Click to play</h5>
+			<i class="fas fa-play-circle fa-10x hvr-icon"></i>
+			<h5 class="align-items-center justify-content-center"> Full Portfolio Video!</h5>
+		</button>
 		</div>
 	</div>
 
+
+
+
 	<section id="about" class="wrapper display_js">
-		<div class="main-container main-container_padding">
+		<div class="main-container main-container_padding pt-5">
 			<header class="main-container__header">
 				<h2 class="title title_bottom-decor">About me</h2>
 				<div class="subtitle">Let me introduce myself</div>
@@ -1018,17 +1032,13 @@
 	<script async src="js/plugins/layerPopup.min.js"></script>
 	<script async src="js/plugins/magicLayout.min.js"></script>
 	<script async src="js/main.js"></script>
-
-
-	<script src="js/plugins/jquery.youtubebackground.min.js"></script>
 	<script src="js/plugins/jquery.youtubebackground.min.js"></script>
 	<script>
 		(function($) {
 
 			$("#welcome").YTPlayer({
-				videoId: "fFg2gu9RlPA",
+				videoId: "7mL3-1uQkJc",
 				pauseOnScroll: true,
-				muted: false
 			});
 
 		})(jQuery);

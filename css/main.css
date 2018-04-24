@@ -24,6 +24,17 @@ button.button.contact-form__button.layer.callme-button.animated.fadeInRight {
     margin-top: -4%;
 }
 
+#videoMobile {
+  outline: none;
+}
+
+span.welcome__name.layer.animated.fadeInDown {
+    margin-bottom: -8px;
+    margin-top: 0px;
+}
+
+
+
 
 .fa-github {
   background-color: white;
@@ -180,6 +191,13 @@ a {
   color: #000;
   -webkit-transition: color 0.3s ease-out 0s;
   transition: color 0.3s ease-out 0s;
+}
+
+.bg-black {
+  background-color: black;
+}
+.darkRed {
+  color: #a74752;
 }
 
 a:hover {
@@ -1082,6 +1100,28 @@ p:last-of-type {
 
 .welcome__header {
   line-height: 8rem;
+  margin-bottom: 0;
+}
+
+#welcomeHeader h1 {
+  margin-bottom: 0;
+}
+
+span.welcome__label.layer.animated.fadeInUp {
+    margin-bottom: -5px;
+    /* margin-top: 125px; */
+}
+
+span.welcome__label.layer.animated.fadeInUp.h1 {
+    margin-bottom: -5px;
+}
+
+
+
+#welcomeHeader h1 {
+    margin-bottom: -33px;
+    /* margin-top: 203px; */
+margin-top: 50%;
 }
 
 .welcome__name {
