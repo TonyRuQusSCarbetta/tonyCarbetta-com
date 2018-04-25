@@ -3003,7 +3003,7 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px #672930;
 }
 .hvr-icon-spin .hvr-icon {
   -webkit-transition-duration: 1s;
