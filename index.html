@@ -23,19 +23,27 @@
 
 <body id="welcome_active">
 
-	<header id="welcome" class="header header_no-bg box_blur display_js">
+
+
+	<!-- <header id="welcome" class="header header_no-bg box_blur display_js"> -->
+		<!-- <header id="welcome" class=" header_no-bg box_blur display_js">
 		<div class="main-container main-container_fullheight">
 			<div id="welcomeHeader" class="welcome">
 				<h1 class="welcome__header">
+					<span class="welcome__name layer animated fadeInDown" data-show-effect="fadeInDown" data-show-delay="200">I am Tony Carbetta</span>
+					<span class="welcome__label layer darkRed animated fadeInUp" data-show-effect="fadeInUp" data-show-delay="300">Front End Web Developer </span>
+				</h1>
 				<span class="welcome__name layer" data-show-effect="fadeInDown" data-show-delay="500">I am Tony Carbetta</span>
-				<span class="welcome__label layer " data-show-effect="fadeInUp" data-show-delay="500">Front-end developer from South San Francisco, CA</span>
+				<span class="welcome__label layer darkRed " data-show-effect="fadeInUp" data-show-delay="500">Front End Web Developer </span>
 			</h1>
 				<div class="welcome__footer mt-5">
 					<a href="resume/Tony-Carbetta-Resume-NoPhone.pdf" target="_blank" class="mb-5 welcome__link layer" data-show-effect="fadeInUp" data-show-delay="1000">download resume</a>
 				</div>
 			</div>
 		</div>
-	</header>
+	</header> -->
+
+
 
 
 <!-- href="https://www.youtube.com/watch?v=7mL3-1uQkJc" target="_blank" -->
@@ -45,54 +53,35 @@
 </div>
 </div> -->
 
-<script type="text/javascript">
-function videoMobile() {
-	var videoMobile = document.getElementById('videoMobile');
-	videoMobile.style.display = 'none';
-	videoMobile.innerHTML = '<iframe width="314" height="314" src="https://www.youtube.com/embed/7mL3-1uQkJc?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
-	videoMobile.style.display = 'block';
-	videoMobile.className = 'animated rotateIn border border-rounded';
-	var videoMobileContainer = document.getElementById('videoMobileContainer');
-	videoMobileContainer.style.backgroundColor = '#672930';
-	videoMobile.style.borderBottom = 'solid 5px #672930';
-	videoMobile.style.borderTop = 'solid 5px #672930';
-}
-</script>
-	<!-- video button -->
-		<div class="container mt-5 bg-black">
-				<div id="videoMobileContainer" class="row align-items-center justify-content-center bg-black">
-		 <button id="videoMobile" type="button" onclick="videoMobile()" class="btn bg-light darkRed p-5 m-5 animated slideInLeft hvr-icon-spin">
-			<h5 class="align-items-center justify-content-center">Click to play</h5>
-			<i class="fas fa-play-circle fa-10x hvr-icon"></i>
-			<h5 class="align-items-center justify-content-center"> Full Portfolio Video!</h5>
-		</button>
-		</div>
-	</div>
 
 
-
-
-	<section id="about" class="wrapper display_js">
+	<section id="about animated zoomInDown" class="wrapper display_js mt-5 pt-5">
 		<div class="main-container main-container_padding pt-5">
 			<header class="main-container__header">
-				<h2 class="title title_bottom-decor">About me</h2>
+				<h2 class="title title_bottom-decor mt-5">About me</h2>
 				<div class="subtitle">Let me introduce myself</div>
 			</header>
 			<div class="content about-me">
 				<div class="about-me__layout layer" data-show-effect="fadeInLeft" data-show-delay="200">
+					<div class="col-md-8 offset-md-4 text-center">
 					<div class="avatar">
 						<!-- <img class="avatar__img responsive-img" src="http://placehold.it/300x300" alt="Avatar"/> -->
-						<img class="avatar__img responsive-img " src="img/profile-pic.png" alt="profile picture">
+						<img class="avatar__img responsive-img" src="img/profile-pic.png" alt="profile picture">
+					</div>
+					</div>
+					<div class="about-me__content row">
+						<div class="col-md-8 offset-md-4 text-center">
+						<!-- <p>Ambitious 29 year old front end web developer with alot of talent, drive, and experience. Currently I live in South San Francisco, CA. However, I grew up most of my life in Colorado Springs, CO. I am very lucky/blessed to be married to my best friend
+							& get the amazing experience of being "dad" to our charismatic 8 year old son. If you have any web development needs please do not hesitate to contact me. </p> -->
+							<p>Hi!!! I'm Tony and I fell in love with Web Development way back in the days of Myspace (the original facebook lol).  When I turned my background color from white to blue I thought it was the coolest thing since Michael Jackson did the moonwalk... Over ten years later I am still changing background colors; except now they are  on extremely complicated websites/applications & I absolutely love it!</p>
+							<a class="w-75 p-4 mb-2 mt-5 btn btn-lg btn-outline-dark align-items-center" href="resume/Tony-Carbetta-Resume-NoPhone.pdf" target="_blank">View Resume</a>
+							</div>
+					</div>
 
-					</div>
-					<div class="about-me__content">
-						<p>Ambitious 29 year old front end web developer with alot of talent, drive, and experience. Currently I live in South San Francisco, CA. However, I grew up most of my life in Colorado Springs, CO. I am very lucky/blessed to be married to my best friend
-							& get the amazing experience of being "dad" to our charismatic 8 year old son. If you have any web development needs please do not hesitate to contact me. </p>
-					</div>
 				</div>
-				<section class="about-me__sidebar layer" data-show-effect="fadeInRight" data-show-delay="200">
-					<h3 class="title title_middle about-me__title">PERSONAL <span class="about-me__title-label">INFO</span></h3>
-					<div class="about-me__row">
+				<section id="contact" class="about-me__sidebar layer" data-show-effect="fadeInRight" data-show-delay="200">
+					<h3 class="title title_middle about-me__title text-center mx-auto">Contact <span class="about-me__title-label text-center">INFO</span></h3>
+					<!-- <div class="about-me__row">
 						<div class="about-me__column">
 							<div class="about-me__tag">Name</div>
 						</div>
@@ -107,7 +96,7 @@ function videoMobile() {
 						<div class="about-me__column">
 							<div class="about-me__value">10-18-1988</div>
 						</div>
-					</div>
+					</div> -->
 					<!-- <div class="about-me__row">
                     <div class="about-me__column">
                         <div class="about-me__tag">ADDRESS</div>
@@ -116,7 +105,7 @@ function videoMobile() {
                         <div class="about-me__value">Street name, Denmark</div>
                     </div>
                 </div> -->
-					<div class="about-me__row">
+					<!-- <div class="about-me__row">
 						<div class="about-me__column">
 							<div class="about-me__tag">PHONE</div>
 						</div>
@@ -131,13 +120,13 @@ function videoMobile() {
 						<div class="about-me__column">
 							<div class="about-me__value"><a href="http://www.TonyCarbetta.com">www.TonyCarbetta.com</a></div>
 						</div>
-					</div>
+					</div> -->
 					<div class="about-me__row">
 						<div class="about-me__column">
 							<div class="about-me__tag">E-mail</div>
 						</div>
 						<div class="about-me__column">
-							<div class="about-me__value"><a href="mailto:TonyCarbetta@gmail.com">TonyCarbetta@gmail.com</a></div>
+							<div class="about-me__value"><a class="hvr-grow text-black" href="mailto:TonyCarbetta@gmail.com">TonyCarbetta@gmail.com</a></div>
 						</div>
 					</div>
 					<div class="about-me__row">
@@ -179,6 +168,9 @@ function videoMobile() {
 							<a href="https://www.twitter.com/CarbettaCoding" target="_blank"><i class="animated infinite pulse fab fa-twitter fa-2x"></i></a>
 
 
+
+
+
 							<!-- extra links (still need to be fixed) -->
 							<!-- <a class="animated infinite pulse fab fa-google-plus-g fa-2x" href="http://www.google.com/TonyCarbetta" target="_blank"></a>
 							<a class="animated infinite pulse fab fa-youtube fa-2x" href="https://www.youtube.com/channel/UCbqZGXRtd2wIoFxnkriKYew?view_as=subscriber" target="_blank"></a>
@@ -186,13 +178,275 @@ function videoMobile() {
 							<a class="animated infinite pulse fab fa-angellist fa-2x" href="https://angel.co/tony-carbetta" target="_blank"></a> -->
 
 						</div>
+
 					</div>
+					<script type="text/javascript">
+					function videoMobile() {
+						var videoMobile = document.getElementById('videoMobile');
+						videoMobile.style.display = 'none';
+						videoMobile.innerHTML = '<iframe width="420" height="314" src="https://www.youtube.com/embed/7mL3-1uQkJc?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+						videoMobile.style.display = 'block';
+						videoMobile.className = 'animated rotateIn border border-rounded';
+						var videoMobileContainer = document.getElementById('videoMobileContainer');
+						videoMobileContainer.style.backgroundColor = '#672930';
+						videoMobile.style.borderBottom = 'solid 5px #672930';
+						videoMobile.style.borderTop = 'solid 5px #672930';
+					}
+					</script>
+						<!-- video button -->
+							<div class="container mt-5 bg-black w-100">
+									<div id="videoMobileContainer" class="row align-items-center justify-content-center bg-black">
+							 <button id="videoMobile" type="button" onclick="videoMobile()" class="btn bg-light darkRed p-5 m-5 animated slideInLeft hvr-icon-spin">
+								<h5 class="align-items-center justify-content-center">Click to play</h5>
+								<i class="fas fa-play-circle fa-10x hvr-icon"></i>
+								<h5 class="align-items-center justify-content-center"> Full Portfolio Video!</h5>
+							</button>
+							</div>
+						</div>
 				</section>
 			</div>
 		</div>
 	</section>
 
-	<section id="skills" class="wrapper box_blur skills-display display_js">
+	<section id="portfolio" class="wrapper portfolio display_js mb-5">
+		<header class="portfolio__header">
+			<h2 class="title title_bottom-decor">Portfolio</h2>
+			<div class="subtitle">My latest works</div>
+		</header>
+		<div class="content list-works">
+			<div class="list-works__column">
+
+				<!-- CARBETTA CODING -->
+				<a href="projects/horoscope-app/index.html" target="_blank" class="list-works__item list-works__item_big layer" data-show-effect="fadeIn" data-show-delay="100" data-id="he">
+					<div class="list-works__wrap-img">
+						<img src="img/horoscope-app.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Horoscope App- Manipulating the DOM, writing HTML/CSS from Javascript to match info from user's input and gives a fortune.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+
+				<!-- YUMMZERS -->
+				<a href="http://www.yummzers.com" target="_blank" class="list-works__item list-works__item_big layer" data-show-effect="fadeIn" data-show-delay="100" data-id="he">
+					<div class="list-works__wrap-img">
+						<img src="img/yummzers-com.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Yummzers.com is a website I created for a business client I had with some Very popular dishes and baked goods.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+
+
+
+				<!-- Apple -->
+				<a href="projects/apple-homepage-navbar/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="800" data-id="aa">
+					<div class="list-works__wrap-img">
+						<img src="projects/apple-homepage-navbar/img/apple-homepage.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">This responsive Apple Homepage is a replica of the nav bar and iphone X banner that apple had on it's site when the iphone X was first released.</span>
+						<span class="list-works__link-project"></span>
+					</div>
+				</a>
+
+				<!-- Orange Juice -->
+				<!-- <a href="projects/orange-responsive/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="800" data-id="aa">
+					<div class="list-works__wrap-img">
+						<img src="projects/orange-responsive/img/orangePSD.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Organic Orange Juice company landing page.  This was a PSD (photoshop design) that I converted to responsive web html/css.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a> -->
+
+
+				<!-- Google -->
+				<a href="projects/google-replica/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="900" data-id="lmb">
+					<div class="list-works__wrap-img">
+						<img src="projects/google-replica/img/google-replica.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Responsive re-creation of the Google Home page.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+
+
+					<!-- Codepen -->
+				</a>
+				<a href="https://codepen.io/TonyRuQusSCarbetta" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="1000" data-id="mrt">
+					<div class="list-works__wrap-img">
+						<img src="img/codepen.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">I practice on codepen alot when I can't be at my computer but have my iphone lol  Some nice projects & some concepts</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+
+				<!-- VISUAL ARTS BLOG -->
+				<a href="projects/visualArts/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="1100" data-id="pan">
+					<div class="list-works__wrap-img">
+						<img src="projects/visualArts/img/visual-arts-blog.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Quick Blog page layout.  Natural CSS</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+			</div>
+			<div class="list-works__column">
+
+
+
+
+				<!-- ORANGE JUICE -->
+				<!-- <a href="projects/orange-responsive/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="400" data-id="rf">
+					<div class="list-works__wrap-img">
+						<img src="projects/orange-responsive/img/orangePSD.png" class="img-fluid responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Organic Orange Juice company landing page.  This was a PSD (photoshop design) that I converted to responsive web html/css.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a> -->
+
+				<!-- COMMENT APP -->
+				<!-- <a href="projects/comment-app/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="400" data-id="rf">
+					<div class="list-works__wrap-img">
+						<img src="img/comment-app.png" class="responsive-img img-fluid" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">JavaScript DOM manipulation to Create Elements based on event listener. Bootstrap4 styling.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a> -->
+
+				<!-- COMMENT APP -->
+				<a href="projects/comment-app/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="400" data-id="rf">
+					<div class="list-works__wrap-img">
+						<img src="img/comment-app.png" class="responsive-img img-fluid" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">JavaScript DOM manipulation to Create Elements based on event listener with some Bootstrap4 styling.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+
+
+
+				<!-- CLUB CARBETTA -->
+				<!-- <a href="projects/Club-Entry-App/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="300" data-id="wgm">
+					<div class="list-works__wrap-img">
+						<img src="projects/Club-Entry-App/img/club-entrance.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Club Carbetta - fill in the inputs to determine if you are old enough to enter the club & drink.  This app's focus is on Javascript.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a> -->
+
+				<!-- GITHUB -->
+				<a href="http://www.Github.com/TonyRuQusSCarbetta" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="300" data-id="wgm">
+					<div class="list-works__wrap-img">
+						<img src="img/github.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Nearly all my work is on Github! I'm pushing everyday. It's the best way to see what I'm currently Coding.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+
+
+				<!-- <a href="projects/comment-appfacebook/index.html" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="600" data-id="mdb">
+					<div class="list-works__wrap-img">
+						<img src="img/comment-app.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">JavaScript DOM manipulation to Create Elements based on event listener. Bootstrap4 styling.</span>
+						<span class="list-works__link-project">showmore</span></a>
+					</div> -->
+
+
+				<!-- HOROSCOPE APP -->
+				<a href="http://www.carbettacoding.com" target="_blank" class=" list-works__item list-works__item_big layer" data-show-effect="fadeIn" data-show-delay="700" data-id="lrmw">
+					<div class="list-works__wrap-img">
+						<img src="img/carbettacoding.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Carbetta Coding .com - official freelance Web Development business website.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+
+				<!-- RESTAURANT -->
+				<!-- <a href="#portfolio" data-scroll-nav="6" data-id-section="portfolio" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="500" data-id="mdb">
+					<div class="list-works__wrap-img">
+						<img src="img/restaurantBD.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">RestaurantBD  This project is in progress & is coming soon.</span>
+						<span class="list-works__link-project">Coming Soon!</span>
+					</div>
+				</a> -->
+
+				<a href="projects/orange-responsive/index.html" data-scroll-nav="6" data-id-section="portfolio" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="500" data-id="mdb">
+					<div class="list-works__wrap-img">
+						<img src="projects/orange-responsive/img/orangePSD.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Organic Orange Juice company landing page.  This was a PSD (photoshop design) that I converted to responsive web html/css/media queries.</span>
+						<span class="list-works__link-project"></span>
+					</div>
+				</a>
+
+
+
+				<!-- APPLE HOMEPAGE -->
+				<!-- <a href="projects/apple-homepage-navbar/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="600" data-id="ml">
+					<div class="list-works__wrap-img">
+						<img src="projects/apple-homepage-navbar/img/apple-homepage.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">This responsive Apple Homepage is a replica of the nav bar and iphone X banner that apple had on it's site when the iphone X was first released.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a> -->
+
+				<!-- Club-Entry-App -->
+				<a href="projects/Club-Entry-App/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="600" data-id="ml">
+					<div class="list-works__wrap-img">
+						<img src="projects/Club-Entry-App/img/club-entrance.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">Club Carbetta - fill in the inputs to determine if you are old enough to enter the club & drink.  This app's focus is on Javascript.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a>
+
+				<!-- <a href="projects/comment-app/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="600" data-id="ml">
+					<div class="list-works__wrap-img">
+						<img src="img/comment-app.png" class="responsive-img" alt="Work" />
+					</div>
+					<div class="list-works__overlay">
+						<span class="list-works__name-project list-works__name-project_fade">This responsive Apple Homepage is a replica of the nav bar and iphone X banner that apple had on it's site when the iphone X was first released.</span>
+						<span class="list-works__link-project">showmore</span>
+					</div>
+				</a> -->
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+	<section id="skills" class="wrapper box_blur skills-display display_js pb-5 mt-5">
 		<div class="main-container main-container_padding">
 			<header class="main-container__header">
 				<h2 class="title title_bottom-decor title_white">Skills</h2>
@@ -252,7 +506,10 @@ function videoMobile() {
 			</div>
 		</div>
 	</section>
-	<section id="experience" class="wrapper display_js">
+
+
+
+	<section id="experience" class="wrapper display_js mb-5">
 		<div class="main-container main-container_padding">
 			<header class="main-container__header">
 				<h2 class="title title_bottom-decor">Experience</h2>
@@ -264,10 +521,10 @@ function videoMobile() {
 					<div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="500" data-time="300"></div>
 					<div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="900">
 						<span class="timeline__date">2016-Present</span>
-						<span class="timeline__place-work">Carbetta Coding & Codify Academy</span>
+						<span class="timeline__place-work">Carbetta Coding</span>
 					</div>
 					<article class="timeline__inner timeline__content layer" data-show-effect="fadeInRight" data-show-delay="1000">
-						<h3 class="title title_small timeline__title">Web Developer</h3>
+						<h3 class="title title_small timeline__title">Lead Web Developer</h3>
 						<div class="timeline__description">
 							<p>
 								Specializing in front end development & creating web page applications.<br> Take a PSD design and make it a dynamic web site/page/app.<br> Independently developed a dynamic, secure Web business from scratch.<br> Launched visually appealing, user-friendly
@@ -277,14 +534,14 @@ function videoMobile() {
 						</div>
 					</article>
 				</div>
-				<div class="timeline__layout">
+				<!-- <div class="timeline__layout">
 					<div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="700" data-time="300"></div>
 					<div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="1100">
 						<span class="timeline__date">2010 - 2018</span>
 						<span class="timeline__place-work">Sears Holdings Corporation</span>
 					</div>
 					<article class="timeline__inner timeline__content layer" data-show-effect="fadeInRight" data-show-delay="1200">
-						<h3 class="title title_small timeline__title">Large Appliance Commission Sales Specialist</h3>
+						<h3 class="title title_small timeline__title">Large Appliance Sales Specialist</h3>
 						<div class="timeline__description">
 							<p>
 								SOLD OVER 1.2 MILLION DOLLARS in 2015!! (Gaining corporate recognition)<br> Started off knowing absolutely nothing about large appliances and within the first two months working full time commission sales, I earned Best of Blue awards for going
@@ -293,9 +550,9 @@ function videoMobile() {
 							</p>
 						</div>
 					</article>
-				</div>
+				</div> -->
 
-				<div class="timeline__layout">
+				<!-- <div class="timeline__layout">
 					<div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="1300" data-time="300"></div>
 					<div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="1700">
 						<span class="timeline__date">2016-2018</span>
@@ -309,9 +566,9 @@ function videoMobile() {
 							</p>
 						</div>
 					</article>
-				</div>
+				</div> -->
 
-				<div class="timeline__layout">
+				<!-- <div class="timeline__layout">
 					<div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="900" data-time="300"></div>
 					<div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="1300">
 						<span class="timeline__date">2007-2010</span>
@@ -325,8 +582,8 @@ function videoMobile() {
 							</p>
 						</div>
 					</article>
-				</div>
-				<div class="timeline__layout">
+				</div> -->
+				<!-- <div class="timeline__layout">
 					<div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="1100" data-time="300"></div>
 					<div class="timeline__inner timeline__time  layer" data-show-effect="fadeIn" data-show-delay="1500">
 						<span class="timeline__date">2006 - 2008</span>
@@ -338,17 +595,62 @@ function videoMobile() {
 							<p>Excelled in physical fitness, instruction, and labor<br> Taught youth of all ages, focusing on developing confidence, self worth, and integrity as well as the importance of defending one’s self
 							</p>
 						</div>
-					</article>
+					</article> -->
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <section id="contact" class="wrapper display_js">
+		<div class="main-container main-container_padding">
+
+			<header class="main-container__header">
+				<h2 class="title title_bottom-decor">Contact</h2>
+				<div class="subtitle">Get in touch</div>
+			</header> -->
+			<!-- <form action="mailto:tonycarbetta@gmail.com" class="contact-form">
+				<div class="contact-form__item layer" data-show-effect="fadeInLeft" data-show-delay="400">
+					<i class="icon icon-user contact-form__icon"></i>
+					<input action="mailto:tonycarbetta@gmail.com" class="text-field" placeholder="Your name" name="username" required/>
+				</div>
+				<div class="contact-form__item layer" data-show-effect="fadeInRight" data-show-delay="500">
+					<i class="icon icon-mail contact-form__icon"></i>
+					<input action="mailto:tonycarbetta@gmail.com" class="text-field" type="email" placeholder="Your email" name="email" required/>
+				</div>
+				<div class="contact-form__item layer" data-show-effect="fadeInLeft" data-show-delay="600">
+					<i class="icon icon-message contact-form__icon"></i>
+					<textarea action="mailto:tonycarbetta@gmail.com" class="text-field textarea" placeholder="Your message" name="message" required></textarea>
+				</div> -->
+				<!-- <div class="button" data-show-effect="fadeInLeft" data-show-delay="600">
+					<i class="icon icon-phone"></i>
+					<button action="tel:+6502707142">Call Me Now!</textarea>
+				</div> -->
+
+					<!-- <a href="tel:+6502707142"><button class="button contact-form__button layer callme-button" data-show-effect="fadeInRight" data-show-delay="700"><span class="button__label">Call Me Now!</span></button></a> -->
+				<!-- <a href="mailto:tonycarbetta@gmail.com"><button class="button contact-form__button layer" data-show-effect="fadeInRight" data-show-delay="700"><span class="button__label">Email</span></button></a>
+			</form>
+
+		</div>
+	</section> -->
+
 	<section id="stats" class="wrapper stats-display box_blur display_js">
 		<div class="main-container main-container_padding">
 			<header class="main-container__header">
 				<h2 class="title title_bottom-decor title_white">My stats</h2>
 			</header>
-			<div class="content stats">
+			<div class="content stats pb-5">
 				<div class="stats__item layer" data-show-effect="zoomIn" data-show-delay="300">
 					<i class="far fa-thumbs-up fa-5x"></i>
 					<!-- <i class="icon icon-thumbs-up stats__icon"></i> -->
@@ -374,288 +676,17 @@ function videoMobile() {
 	</section>
 
 
-
-
-
-
-	<section id="portfolio" class="wrapper portfolio display_js">
-		<header class="portfolio__header">
-			<h2 class="title title_bottom-decor">Portfolio</h2>
-			<div class="subtitle">My latest works</div>
-		</header>
-		<div class="content list-works">
-			<div class="list-works__column">
-
-				<!-- CARBETTA CODING -->
-				<a href="UpdatedProjects/horoscope-app/index.html" target="_blank" class="list-works__item list-works__item_big layer" data-show-effect="fadeIn" data-show-delay="100" data-id="he">
-					<div class="list-works__wrap-img">
-						<img src="img/horoscope-app.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Horoscope App- Manipulating the DOM, writing HTML/CSS from Javascript to match info from user's input and gives a fortune.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-
-				<!-- YUMMZERS -->
-				<a href="http://www.yummzers.com" target="_blank" class="list-works__item list-works__item_big layer" data-show-effect="fadeIn" data-show-delay="100" data-id="he">
-					<div class="list-works__wrap-img">
-						<img src="img/yummzers-com.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Yummzers.com is a website I created for a business client I had with some Very popular dishes and baked goods.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-
-
-
-				<!-- Apple -->
-				<a href="UpdatedProjects/apple-homepage-navbar/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="800" data-id="aa">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/apple-homepage-navbar/img/apple-homepage.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">This responsive Apple Homepage is a replica of the nav bar and iphone X banner that apple had on it's site when the iphone X was first released.</span>
-						<span class="list-works__link-project"></span>
-					</div>
-				</a>
-
-				<!-- Orange Juice -->
-				<!-- <a href="UpdatedProjects/orange-responsive/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="800" data-id="aa">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/orange-responsive/img/orangePSD.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Organic Orange Juice company landing page.  This was a PSD (photoshop design) that I converted to responsive web html/css.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a> -->
-
-
-				<!-- Google -->
-				<a href="UpdatedProjects/google-replica/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="900" data-id="lmb">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/google-replica/img/google-replica.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Responsive re-creation of the Google Home page.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-
-
-					<!-- Codepen -->
-				</a>
-				<a href="https://codepen.io/TonyRuQusSCarbetta" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="1000" data-id="mrt">
-					<div class="list-works__wrap-img">
-						<img src="img/codepen.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">I practice on codepen alot when I can't be at my computer but have my iphone lol  Some nice projects & some concepts</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-
-				<!-- VISUAL ARTS BLOG -->
-				<a href="UpdatedProjects/visualArts/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="1100" data-id="pan">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/visualArts/img/visual-arts-blog.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Quick Blog page layout.  Natural CSS</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-			</div>
-			<div class="list-works__column">
-
-
-
-
-				<!-- ORANGE JUICE -->
-				<!-- <a href="UpdatedProjects/orange-responsive/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="400" data-id="rf">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/orange-responsive/img/orangePSD.png" class="img-fluid responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Organic Orange Juice company landing page.  This was a PSD (photoshop design) that I converted to responsive web html/css.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a> -->
-
-				<!-- COMMENT APP -->
-				<!-- <a href="UpdatedProjects/comment-app/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="400" data-id="rf">
-					<div class="list-works__wrap-img">
-						<img src="img/comment-app.png" class="responsive-img img-fluid" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">JavaScript DOM manipulation to Create Elements based on event listener. Bootstrap4 styling.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a> -->
-
-				<!-- COMMENT APP -->
-				<a href="UpdatedProjects/comment-app/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="400" data-id="rf">
-					<div class="list-works__wrap-img">
-						<img src="img/comment-app.png" class="responsive-img img-fluid" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">JavaScript DOM manipulation to Create Elements based on event listener with some Bootstrap4 styling.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-
-
-
-				<!-- CLUB CARBETTA -->
-				<!-- <a href="UpdatedProjects/Club-Entry-App/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="300" data-id="wgm">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/Club-Entry-App/img/club-entrance.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Club Carbetta - fill in the inputs to determine if you are old enough to enter the club & drink.  This app's focus is on Javascript.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a> -->
-
-				<!-- GITHUB -->
-				<a href="http://www.Github.com/TonyRuQusSCarbetta" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="300" data-id="wgm">
-					<div class="list-works__wrap-img">
-						<img src="img/github.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Nearly all my work is on Github! I'm pushing everyday. It's the best way to see what I'm currently Coding.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-
-
-				<!-- <a href="UpdatedProjects/comment-appfacebook/index.html" class="list-works__item layer open-popup_js" data-show-effect="fadeIn" data-show-delay="600" data-id="mdb">
-					<div class="list-works__wrap-img">
-						<img src="img/comment-app.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">JavaScript DOM manipulation to Create Elements based on event listener. Bootstrap4 styling.</span>
-						<span class="list-works__link-project">showmore</span></a>
-					</div> -->
-
-
-				<!-- HOROSCOPE APP -->
-				<a href="http://www.carbettacoding.com" target="_blank" class=" list-works__item list-works__item_big layer" data-show-effect="fadeIn" data-show-delay="700" data-id="lrmw">
-					<div class="list-works__wrap-img">
-						<img src="img/carbettacoding.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Carbetta Coding .com - official freelance Web Development business website.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-
-				<!-- RESTAURANT -->
-				<!-- <a href="#portfolio" data-scroll-nav="6" data-id-section="portfolio" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="500" data-id="mdb">
-					<div class="list-works__wrap-img">
-						<img src="img/restaurantBD.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">RestaurantBD  This project is in progress & is coming soon.</span>
-						<span class="list-works__link-project">Coming Soon!</span>
-					</div>
-				</a> -->
-
-				<a href="UpdatedProjects/orange-responsive/index.html" data-scroll-nav="6" data-id-section="portfolio" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="500" data-id="mdb">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/orange-responsive/img/orangePSD.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Organic Orange Juice company landing page.  This was a PSD (photoshop design) that I converted to responsive web html/css/media queries.</span>
-						<span class="list-works__link-project"></span>
-					</div>
-				</a>
-
-
-
-				<!-- APPLE HOMEPAGE -->
-				<!-- <a href="UpdatedProjects/apple-homepage-navbar/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="600" data-id="ml">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/apple-homepage-navbar/img/apple-homepage.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">This responsive Apple Homepage is a replica of the nav bar and iphone X banner that apple had on it's site when the iphone X was first released.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a> -->
-
-				<!-- Club-Entry-App -->
-				<a href="UpdatedProjects/Club-Entry-App/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="600" data-id="ml">
-					<div class="list-works__wrap-img">
-						<img src="UpdatedProjects/Club-Entry-App/img/club-entrance.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">Club Carbetta - fill in the inputs to determine if you are old enough to enter the club & drink.  This app's focus is on Javascript.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a>
-
-				<!-- <a href="UpdatedProjects/comment-app/index.html" target="_blank" class="list-works__item layer" data-show-effect="fadeIn" data-show-delay="600" data-id="ml">
-					<div class="list-works__wrap-img">
-						<img src="img/comment-app.png" class="responsive-img" alt="Work" />
-					</div>
-					<div class="list-works__overlay">
-						<span class="list-works__name-project list-works__name-project_fade">This responsive Apple Homepage is a replica of the nav bar and iphone X banner that apple had on it's site when the iphone X was first released.</span>
-						<span class="list-works__link-project">showmore</span>
-					</div>
-				</a> -->
-
-			</div>
-		</div>
-	</section>
-
-
-
-
-
-	<section id="contact" class="wrapper display_js">
-		<div class="main-container main-container_padding">
-
-			<header class="main-container__header">
-				<h2 class="title title_bottom-decor">Contact</h2>
-				<div class="subtitle">Get in touch</div>
-			</header>
-			<!-- <form action="mailto:tonycarbetta@gmail.com" class="contact-form">
-				<div class="contact-form__item layer" data-show-effect="fadeInLeft" data-show-delay="400">
-					<i class="icon icon-user contact-form__icon"></i>
-					<input action="mailto:tonycarbetta@gmail.com" class="text-field" placeholder="Your name" name="username" required/>
-				</div>
-				<div class="contact-form__item layer" data-show-effect="fadeInRight" data-show-delay="500">
-					<i class="icon icon-mail contact-form__icon"></i>
-					<input action="mailto:tonycarbetta@gmail.com" class="text-field" type="email" placeholder="Your email" name="email" required/>
-				</div>
-				<div class="contact-form__item layer" data-show-effect="fadeInLeft" data-show-delay="600">
-					<i class="icon icon-message contact-form__icon"></i>
-					<textarea action="mailto:tonycarbetta@gmail.com" class="text-field textarea" placeholder="Your message" name="message" required></textarea>
-				</div> -->
-				<!-- <div class="button" data-show-effect="fadeInLeft" data-show-delay="600">
-					<i class="icon icon-phone"></i>
-					<button action="tel:+6502707142">Call Me Now!</textarea>
-				</div> -->
-
-					<a href="tel:+6502707142"><button class="button contact-form__button layer callme-button" data-show-effect="fadeInRight" data-show-delay="700"><span class="button__label">Call Me Now!</span></button></a>
-				<a href="mailto:tonycarbetta@gmail.com"><button class="button contact-form__button layer" data-show-effect="fadeInRight" data-show-delay="700"><span class="button__label">Email</span></button></a>
-			</form>
-
-		</div>
-	</section>
-
-
-
-
 	<footer class="footer">
 		<div class="main-container">
 			<div class="copyright">© 2018 All right reserved</div>
+			<a class="hvr-grow" href='http://www.CarbettaCoding.com'><img class="img-fluid w-100 align-items-center justify-content-center" src="img/CarbettaCoding-Logo-Transparent.png" alt="CarbettaCoding"></a>
 			<div class="author">Developed by Tony Carbetta</div>
 		</div>
 	</footer>
-	<div class="fixed-panel">
+
+
+
+	<div class="fixed-panel mb-5">
 		<div class="main-container">
 			<div class="logo logo_left">
 				<span class="logo__item">Tony</span>
@@ -663,13 +694,15 @@ function videoMobile() {
 				<div class="logo__label">Front-end developer</div>
 			</div>
 			<nav class="nav nav_main">
-				<a href="#welcome" class="nav__link init-scroll_js" data-scroll-nav="0" data-id-section="welcome">Home</a>
+				<!-- <a href="#welcome" class="nav__link init-scroll_js" data-scroll-nav="0" data-id-section="welcome">Home</a> -->
 				<a href="#about" class="nav__link init-scroll_js" data-scroll-nav="1" data-id-section="about">About me</a>
+				<a href="#contact" class="nav__link init-scroll_js" data-scroll-nav="8" data-id-section="contact">Contact</a>
+				<a href="#portfolio" class="nav__link init-scroll_js" data-scroll-nav="6" data-id-section="portfolio">Portfolio</a>
 				<a href="#skills" class="nav__link init-scroll_js" data-scroll-nav="2" data-id-section="skills">Skills</a>
 				<a href="#experience" class="nav__link init-scroll_js" data-scroll-nav="3" data-id-section="experience">Experience</a>
 				<a href="#stats" class="nav__link init-scroll_js" data-scroll-nav="4" data-id-section="stats">My stats</a>
-				<a href="#portfolio" class="nav__link init-scroll_js" data-scroll-nav="6" data-id-section="portfolio">Portfolio</a>
-				<a href="#contact" class="nav__link init-scroll_js" data-scroll-nav="8" data-id-section="contact">Contact</a>
+
+
 			</nav>
 			<div class="nav-icon mobile-menu-open_js">
 				<div class="icon-menu"></div>

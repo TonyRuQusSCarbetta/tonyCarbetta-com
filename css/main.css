@@ -420,13 +420,13 @@ p:last-of-type {
 
 .main-container_padding {
   padding-top: 9rem;
-  padding-bottom: 9rem;
+  /* padding-bottom: 9rem; */
 }
 
 @media screen and (max-width: 640px) {
   .main-container_padding {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    /* padding-bottom: 6rem; */
   }
 }
 
@@ -1186,7 +1186,10 @@ margin-top: 41%;
 .about-me__sidebar {
   width: 40%;
   padding: 2.5rem 5%;
-  background-color: #eee;
+  background-color: #a74752;
+}
+#contact {
+  background-color: #a74752;
 }
 
 .about-me__column {
@@ -1246,6 +1249,13 @@ margin-top: 41%;
 .about-me__value {
   display: inline-block;
   vertical-align: middle;
+}
+
+
+
+a:hover {
+  display: inline-block;
+  color: black;
 }
 
 .about-me__icon {
@@ -6390,6 +6400,13 @@ _::full-page-media, _:future, :root body.vegas-container>.vegas-slide, :root bod
   }
 }
 
+.resume-btn {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border: solid 1 px black;
+}
+
 .ytplayer-loaded .ytplayer-container {
   display: block;
 }
@@ -6406,6 +6423,10 @@ _::full-page-media, _:future, :root body.vegas-container>.vegas-slide, :root bod
   z-index: 0;
 }
 
+#welcome {
+  z-index: 9;
+}
+
 .ytplayer-shield {
   width: 100%;
   height: 100%;
@@ -6417,4 +6438,9 @@ _::full-page-media, _:future, :root body.vegas-container>.vegas-slide, :root bod
 
 .ytplayer-player {
   position: absolute;
+}
+
+p {
+    font-size: 14px;
+    letter-spacing: 2.2px;
 }
