@@ -200,6 +200,9 @@ a {
   color: #a74752;
 }
 
+.bg-darkRed {
+  background-color: #a74752;
+}
 
 
 a:hover {
@@ -776,7 +779,7 @@ p:last-of-type {
   z-index: 9997;
   min-width: 100%;
   padding: 1.5rem 0;
-  background-color: #fff;
+  background-color: #eee;
   border-bottom: 0.1rem solid #eee;
   box-shadow: 0 0 0.8rem #ddd;
   -webkit-transform: translateZ(0px) translate(0, 0);
@@ -1186,10 +1189,11 @@ margin-top: 41%;
 .about-me__sidebar {
   width: 40%;
   padding: 2.5rem 5%;
-  background-color: #a74752;
+  /* background-color: #a74752; */
+  background-color: #eee;
 }
 #contact {
-  background-color: #a74752;
+  /* background-color: #a74752; */
 }
 
 .about-me__column {
@@ -6443,4 +6447,20 @@ _::full-page-media, _:future, :root body.vegas-container>.vegas-slide, :root bod
 p {
     font-size: 14px;
     letter-spacing: 2.2px;
+    /* background-color: rgb(170, 48, 48, 0.5); */
+    background-color: rgb(167, 71, 82, 0.9);
+    padding: 30.5px;
+    border-radius: 5%;
+}
+
+section#contact {
+    border-radius: 7%;
+}
+
+#main-container__header {
+  margin-bottom: 0;
+}
+
+.roundedOut {
+  border-radius: 12%;
 }
