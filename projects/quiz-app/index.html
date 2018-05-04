@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- character set -->
+  <meta charset="utf-8">
+  <!-- title -->
+  <title>90's Quiz</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Oswald" rel="stylesheet">
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- FONT AWESOME CSS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- HOVER ANIMATIONS -->
+  <link rel="stylesheet" href="css/hover-min.css">
+  <!-- list of hover effects http://ianlunn.github.io/Hover/#effects -->
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="position-sticky sticky-top animated slideInLeft w-100 ">
+    <div class="container-fluid">
+      <h1 class="text-center text-light bg-info hvr-sink">How Well Do You Know the 90's?</h1>
+    </div>
+  </header>
+
+
+
+  <div class="container">
+    <div class="row ">
+      <h5 id='scoreBoard3'></h5>
+      <h2 id="scoreBoard1"></h2>
+      <h2 id='scoreBoard2'></h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row align-items-center justify-content-center ">
+
+      <div id="boy-meets-world" class="col-md-4 animated flipInX correct incorrect boy-meets-world  mx-auto  border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">What are the names of the main couple from "Boy Meets World?"</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/boy-meets-world.jpg" alt="boyMeetsWorld">
+            <label for="exampleFormControlSelect"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect0">
+                <option>Eric & Topanga</option>
+                <option>Mr Feeny & Angela</option>
+                <option>Cory & Topanga</option>
+                <option>Dawson & Joey</option>
+              </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="spacejam" class="col-md-4 animated flipInX correct incorrect spacejam mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">Which basketball player starred in the movie SpaceJam?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/spacejam.jpg" alt="SpaceJam">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect1">
+                            <option>Lebron James</option>
+                            <option>Shaquille O'Neal</option>
+                            <option>Michael Jordan</option>
+                            <option>Steph Curry</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="tlc" class="col-md-4 animated flipInX correct incorrect tlc mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">TLC had a hit song with the lyrics "Don't go chasing ____?"</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/tlc.jpg" alt="TLC">
+            <label for="exampleFormControlSelect"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect2">
+                          <option>Scrubs</option>
+                          <option>Bad Relationships</option>
+                          <option>Waterfalls</option>
+                          <option>Creeps</option>
+
+                        </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="rugrats" class="col-md-4 animated flipInX correct incorrect rugrats mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">This image is from what Hit cartoon TV-series?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/rugrats.jpeg" alt="Rugrats">
+            <label for="exampleFormControlSelect"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect3">
+            <option>Tommy & Friends</option>
+            <option>Rugrats</option>
+            <option>The Bad Kid's</option>
+            <option>Animaniacs</option>
+                        </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="deathRow" class="col-md-4 animated flipInX correct incorrect deathRow mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">What record label had success with these rappers?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/death-row.png" alt="SpaceJam">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect4">
+                            <option>Bad Boy</option>
+                            <option>Death Row</option>
+                            <option>Murda Inc</option>
+                            <<option>NWA</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="nintendo" class="col-md-4 animated flipInX correct incorrect nintendo mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">Your NES cartridge is not working. What do you do?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/nintendo.png" alt="SpaceJam">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect5">
+                            <option>Nothing it's broken</option>
+                            <option>Unplug the system</option>
+                            <option>Blow on it</option>
+                            <<option>Wash it with soap & water</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="aol" class="col-md-4 animated flipInX correct incorrect aol mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">In what year did the internet officially come out for unrestricted commercial use?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/aol.png" alt="Aol">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect6">
+                            <option>1990</option>
+                            <option>1992</option>
+                            <option>1991</option>
+                            <option>1993</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="bill-clinton" class="col-md-4 animated flipInX correct incorrect bill-clinton mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">Who did Bill Clinton beat in the 1996 presidential election?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/bill-clinton.png" alt="Bill Clinton">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect7">
+                            <option>Himself when he cheated on Hilary</option>
+                            <option>Bob Dole</option>
+                            <option>Barack Obama</option>
+                            <option>Al Gore</option>
+                            <option>George Bush</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="tech" class="col-md-4 animated flipInX correct incorrect tech mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">Why was 1998 a big year for tech companies in America.</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/tech.png" alt="Tech">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect8">
+                            <option>Search engine Google is founded</option>
+                            <option>Apple reveals the iMac computer</option>
+                            <option>Napster music sharing software debuted</option>
+                            <option>All the Above</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="nsync" class="col-md-4 animated flipInX correct incorrect nsync mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">Boy Bands ruled the 90's, Which boy band did this curly ramen noodle hair belong too?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/justin-timberlake.png" alt="justin-timberlake">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect9">
+                            <option>New Kids on The Block</option>
+                            <option>Backstreet Boys</option>
+                            <option>98 Degrees</option>
+                            <option>NSYNC</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="fresh-prince" class="col-md-4 animated flipInX correct incorrect fresh-prince mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">In west philadelphia born and raised on the playground is where ________?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/fresh-prince.png" alt="fresh-prince">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect10">
+                            <option>I spend most of my days</option>
+                            <option>I hang out and stay.</option>
+                            <option>We normally play</option>
+                            <option>The Fresh Prince lays</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+
+      <div id="trl" class="col-md-4 animated flipInX correct incorrect trl mx-auto border border-light rounded m-4 col-height mt-3 pt-2 text-center">
+        <form>
+          <div class="form-group">
+            <h5 class="pt-2 pb-2">What popular TV show did Carson Daly host live at Times Square?</h5>
+            <img class="img-fluid img-height hvr-grow" src="img/trl.png" alt="carson daly">
+            <label for="FormControlSelect1"></label>
+            <select class="form-control hvr-bubble-float-top" id="formControlSelect11">
+                            <option>The Real World</option>
+                            <option>MTV</option>
+                            <option>TRL</option>
+                            <option>None of the above</option>
+                          </select>
+          </div>
+        </form>
+      </div>
+      <button type="button" onclick="checkAnswers()" class="hvr-grow-rotate btn btn-info btn-lg myButton m-4 mx-auto mb-5 border border-light rounded"><h1>Submit</h1></button>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+
+  <footer class="bg-whited mb-0 hvr-pulse-shrink text-center mx-auto w-100"><a class="mx-auto w-100" href="http://www.CarbettaCoding.com" target="_blank"><img class="img-fluid w-100 max-height mt-0 pt-0"src="img/CarbettaCoding-Logo-Transparent.png" alt="CarbettaCoding"></a>
+    <a href="http://www.TonyCarbetta.com" target="_blank">
+      <h4 class="mt-0 pb-2 text-info">Developed by &copyTony Carbetta 2018</h4></a>
+  </footer>
+
+
+  <!-- Main external JS -->
+  <script src="js/main.js"></script>
+  <!-- BOOTSTRAP jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP Popper  CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

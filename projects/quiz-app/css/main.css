@@ -1,0 +1,123 @@
+/* AUTOPREFIXER */
+/* https://autoprefixer.github.io/ */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../img/background.png);
+  background-size: cover;                     /* <------ */
+    /* background-repeat:   no-repeat; */
+    background-position: center center;
+  color: #f8f9fa;
+  font-family: 'Bevan', cursive;
+  letter-spacing: 1px;
+
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.myButton {
+  height: 100px;
+  width: 300px;
+  font-size: 50px;
+}
+
+.col-height {
+  height: 450px;
+}
+
+.img-height {
+  min-height: 225px;
+}
+
+h5 {
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Arvo', serif;
+}
+
+.bg-whited {
+  background-color: rgb(247, 249, 250, .8);
+}
+
+.max-height {
+  max-height: 200px;
+}
+
+.correct {
+
+}
+
+.incorrect {
+
+}
+
+.boy-meets-world {
+  background-color: #17a2b8;
+}
+
+.spacejam {
+  background-color: #17a2b8;
+}
+
+.tlc {
+  background-color: #17a2b8;
+}
+
+.rugrats {
+    background-color: #17a2b8;
+  }
+
+.deathRow {
+  background-color: #17a2b8;
+}
+
+.nintendo {
+  background-color: #17a2b8;
+}
+
+.bg-red {
+background-color: rgb(255, 38, 38, .9);
+}
+
+.bg-green {
+  background-color: rgb(52, 193, 79, .9);
+}
+
+.aol {
+  background-color: #17a2b8;
+}
+
+.bill-clinton {
+  background-color: #17a2b8;
+}
+
+.tech {
+  background-color: #17a2b8;
+}
+
+.fresh-prince {
+  background-color: #17a2b8;
+}
+
+.trl
+  {
+    background-color: #17a2b8;
+  }
+.nsync {
+  background-color: #17a2b8;
+}
+
+.trl {
+  background-color: #17a2b8;
+}
+
+h1 {
+  width: 100%;
+  
+}
