@@ -259,7 +259,7 @@ function checkAnswers() {
   } else {
     var scoreBoard3 = document.getElementById('scoreBoard3');
     var scoreBoard3Text = scoreBoard3.textContent = "Ugh, as if... You don't know the 90's at all! You are worse than Rodney King getting beaten by the LAPD & Bill Clinton's affair with Monica Lewinski.. Try again."
-    scoreBoard3.className = 'animated zoomIn bg-info  text-center mt-3 p-5  d-block  mx-auto w-100';
+    scoreBoard3.className = 'animated rotateIn bg-info  text-center mt-3 p-5  d-block  mx-auto w-100';
   }
 
 }
