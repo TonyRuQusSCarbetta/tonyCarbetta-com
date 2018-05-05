@@ -52,23 +52,32 @@ function checkAnswers() {
     correct++;
     var boyMeetsWorld = document.getElementsByClassName("boy-meets-world")[0];
     boyMeetsWorld.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong0');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var boyMeetsWorldRed = document.getElementsByClassName("incorrect")[0];
     boyMeetsWorldRed.style.backgroundColor = "rgb(255, 38, 38, .9)";
-  }
+    var wrong = document.getElementById('wrong0');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
+}
+
 
   if (userAnswer1 == correctAnswer1) {
     console.log('correct');
     correct++;
     var spacejam = document.getElementsByClassName('spacejam')[0];
     spacejam.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong1');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var spacejam = document.getElementsByClassName('incorrect')[1];
     spacejam.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong1');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
   if (userAnswer2 == correctAnswer2) {
@@ -76,22 +85,30 @@ function checkAnswers() {
     correct++;
     var tlc = document.getElementsByClassName('tlc')[0];
     tlc.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong2');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var tlc = document.getElementsByClassName('incorrect')[2];
     tlc.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong2');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
   if (userAnswer3 == correctAnswer3) {
     console.log('correct');
     correct++;
     var rugrats = document.getElementsByClassName('rugrats')[0];
     rugrats.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong3');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var rugrats = document.getElementsByClassName('incorrect')[3];
     rugrats.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong3');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
   if (userAnswer4 == correctAnswer4) {
@@ -99,11 +116,15 @@ function checkAnswers() {
     correct++;
     var deathRow = document.getElementsByClassName('deathRow')[0];
     deathRow.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong4');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var deathRow = document.getElementsByClassName('incorrect')[4];
     deathRow.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong4');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
   if (userAnswer5 == correctAnswer5) {
@@ -111,11 +132,15 @@ function checkAnswers() {
     correct++;
     var nintendo = document.getElementsByClassName('nintendo')[0];
     nintendo.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong5');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var nintendo = document.getElementsByClassName('incorrect')[5];
     nintendo.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong5');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
   if (userAnswer6 == correctAnswer6) {
@@ -123,22 +148,30 @@ function checkAnswers() {
     correct++;
     var aol = document.getElementsByClassName('aol')[0];
     aol.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong6');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var aol = document.getElementsByClassName('incorrect')[6];
     aol.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong6');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
   if (userAnswer7 == correctAnswer7) {
     console.log('correct');
     correct++;
     var billClinton = document.getElementsByClassName('bill-clinton')[0];
     billClinton.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong7');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var billClinton = document.getElementsByClassName('incorrect')[7];
     billClinton.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong7');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
   if (userAnswer8 == correctAnswer8) {
@@ -146,11 +179,15 @@ function checkAnswers() {
     correct++;
     var tech = document.getElementsByClassName('tech')[0];
     tech.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong8');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var tech = document.getElementsByClassName('incorrect')[8];
     tech.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong8');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
   if (userAnswer9 == correctAnswer9) {
@@ -158,11 +195,15 @@ function checkAnswers() {
     correct++;
     var nsync = document.getElementsByClassName('nsync')[0];
     nsync.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong9');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var nsync = document.getElementsByClassName('incorrect')[9];
     nsync.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong9');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
   if (userAnswer10 == correctAnswer10) {
@@ -170,22 +211,30 @@ function checkAnswers() {
     correct++;
     var freshPrince = document.getElementsByClassName('fresh-prince')[0];
     freshPrince.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong10');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var freshPrince = document.getElementsByClassName('incorrect')[10];
     freshPrince.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong10');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
   if (userAnswer11 == correctAnswer11) {
     console.log('correct');
     correct++;
     var trl = document.getElementsByClassName('trl')[0];
     trl.style.backgroundColor = "rgb(52, 193, 79, .9)";
+    var right = document.getElementById('wrong11');
+    right.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">CORRECT</h2>'
   } else {
     console.log('incorrect');
     incorrect++;
     var trl = document.getElementsByClassName('incorrect')[11];
     trl.style.backgroundColor = "rgb(255, 38, 38, .9)";
+    var wrong = document.getElementById('wrong11');
+    wrong.innerHTML = '<h5 class="text-center animated infinite pulse pt-1">INCORRECT</h2>'
   }
 
 //check to see if it's working

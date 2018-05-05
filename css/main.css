@@ -1285,7 +1285,7 @@ a:hover {
     clear: both;
   }
   .about-me__content {
-    float: right;
+    /* float: right; */
     width: 75%;
   }
   .about-me__sidebar {
@@ -1331,7 +1331,7 @@ a:hover {
 
 .skills__column:last-of-type {
   margin-right: 0;
-  width: 50%;
+  width: 100%;
 }
 
 .skills-bar__item {
@@ -6463,4 +6463,22 @@ section#contact {
 
 .roundedOut {
   border-radius: 12%;
+}
+
+/* .box {
+  width: 318px;
+  height: 340px;
+  border: solid 1px black;
+} */
+
+.no-underline {
+  text-decoration: none;
+}
+
+.max-height {
+  max-height: 315px;
+}
+
+.img-height {
+  max-height: 315px;
 }

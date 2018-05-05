@@ -29,11 +29,14 @@ body {
 }
 
 .col-height {
-  height: 450px;
+  height: 500px;
 }
 
 .img-height {
-  min-height: 225px;
+  min-height: 250px;
+  max-height: 250px;
+  min-width: 310px;
+  max-width: 310px;
 }
 
 h5 {
@@ -119,5 +122,19 @@ background-color: rgb(255, 38, 38, .9);
 
 h1 {
   width: 100%;
-  
+
+}
+
+a {
+  /* margin-bottom: 15px; */
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.develop {
+  /* position: relative;
+  bottom: 32px; */
 }
