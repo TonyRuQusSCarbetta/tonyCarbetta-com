@@ -6482,3 +6482,7 @@ section#contact {
 .img-height {
   max-height: 315px;
 }
+
+img {
+  object-fit: cover;
+}
