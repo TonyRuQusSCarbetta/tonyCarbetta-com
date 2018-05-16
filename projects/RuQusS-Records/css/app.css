@@ -109,10 +109,12 @@ a {
   letter-spacing: 2px;
   line-height: 35px;
   text-align: left;
+
 }
 
 #web, #artistDevelopment, #musicProduction, #contact {
-  background-color: rgb(255, 255, 255, 0.4)
+  background-color: rgb(255, 255, 255, 0.4);
+  visibility: visible
 }
 
 div#menuTitle {
@@ -144,7 +146,7 @@ div#speaker {
 @media only screen and (max-width: 1025px) {
     div#speaker {
         position: relative;
-        font-size: 10px;
+        font-size: 8px;
         top: 10px;
         right: 240px;
     }
@@ -170,20 +172,30 @@ div#speaker {
 @media only screen and (max-width: 427px) {
   div#menuButton {
     position: fixed;
-    right: 346px;
+    right: 329px;
     z-index: 999;
-    top: 19px;
+    top: 22px;
+    }
+    .fa-bars {
+      font-size: 25px;
+      /* background-color: #343a40; */
+
     }
     div#speaker {
-        display: none;
+        /* display: none; */
+        font-size: 5px;
+        position: relative;
+        left: 5px;
+    }
+    #RuQusS-Records-Banner {
+      font-size: 35px;
     }
   .title {
     font-style: italic;
   }
-  h2.content-p {
-    /* color: #f8f9fa; */
-    font-style: italic;
-}
+  /* #web, #artistDevelopment, #musicProduction, #contact {
+    background-color: #f8f9fa;
+  } */
 /* #speaker-mobile-view {
   display: inline-block;
 } */
@@ -200,7 +212,7 @@ div#speaker {
     }
     div#speaker {
         position: relative;
-        font-size: 10px;
+        font-size: 5px;
         top: 10px;
     }
 }
