@@ -6485,4 +6485,5 @@ section#contact {
 
 img {
   object-fit: cover;
+  object-position: 0% 23%;
 }
